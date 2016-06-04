@@ -1,0 +1,23 @@
+.sort-by {
+
+  .sort-by__container {
+    max-width: 780px;
+    margin: 0 auto;
+    padding-right: 1rem;
+
+    .sort-by__text {
+      float: right;
+      margin: 0;
+      width: 10rem;
+      padding-top: 1rem;
+    }
+
+    .sort-by__select {
+      float: right;
+      clear: both;
+      height: 2rem;
+      width: 10rem;
+    }
+  }
+
+}

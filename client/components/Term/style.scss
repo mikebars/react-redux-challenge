@@ -1,0 +1,22 @@
+.term {
+  clear: both;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  .term__container {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 1rem;
+
+    .term__name {
+      font-size: 3rem;
+      color: #fff;
+    }
+
+    .term__body {
+      color: #fff;
+    }
+  }
+
+}

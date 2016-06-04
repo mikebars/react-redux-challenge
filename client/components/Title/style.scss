@@ -1,0 +1,95 @@
+.title {
+  margin: 0;
+  padding: 1rem;
+  clear: both;
+
+  @media only screen and (min-width: 780px) {
+    width: 25%;
+    display: inline-table;
+  }
+
+  @media only screen and (max-width: 780px) {
+    width: 100%;
+    display: block;
+  }
+
+  .title__container {
+    position: relative;
+    @media only screen and (min-width: 780px) {
+      height: 10rem;
+    }
+
+    @media only screen and (max-width: 780px) {
+      height: 20rem;
+    }
+
+    .title__image {
+      background-size: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      @media only screen and (min-width: 780px) {
+        height: 5rem;
+      }
+
+      @media only screen and (max-width: 780px) {
+        height: 15rem;
+      }
+    }
+
+    .title__info {
+
+      .title__title {
+        width: 75%;
+
+        @media only screen and (max-width: 780px) {
+          font-size: 2rem;
+        }
+      }
+    }
+
+    .title__likes {
+      float: right;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      right: 0;
+      bottom: 3rem;
+
+      @media only screen and (max-width: 780px) {
+        font-size: 1.5rem;
+      }
+    }
+
+    .title__link {
+      display: block;
+      float: right;
+      width: 20%;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      cursor: pointer;
+      text-decoration: none;
+      color: #989a9c;
+
+      @media only screen and (max-width: 780px) {
+        font-size: 1.25rem;
+      }
+    }
+
+    .title__badge {
+      position: absolute;
+      top: 0;
+      left: 0;
+      color: #fff;
+      background-color: #00c9c9;
+      padding: 0.5rem;
+
+      @media only screen and (max-width: 780px) {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.titles {
+  clear: both;
+  .titles__container {
+    max-width: 780px;
+    margin: 0 auto;
+
+    .titles__suggestion {
+      float: left;
+      display: block;
+      color: #00c9c9;
+      padding-left: 1rem;
+      width: 100%;
+      font-size: 0.75rem;
+    }
+  }
+}

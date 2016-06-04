@@ -1,0 +1,48 @@
+.footer {
+  clear: both;
+
+  .footer__container {
+    max-width: 780px;
+    margin: 0 auto;
+
+    .footer__load-more {
+      display: block;
+      cursor: pointer;
+      width: 50%;
+      height: 2rem;
+      line-height: 2rem;
+      color: #fff;
+      background-color: #5c738a;
+      text-transform: uppercase;
+      text-align: center;
+      margin: 2rem auto;
+
+      @media only screen and (max-width: 780px) {
+        height: 5rem;
+        line-height: 5rem;
+        width: 75%;
+        font-size: 2rem;
+      }
+    }
+
+    .footer__to-top {
+      display: block;
+      float: right;
+      height: 2rem;
+      width: 2rem;
+      color: #fff;
+      background-color: #5c738a;
+      font-size: 2rem;
+      text-align: center;
+      cursor: pointer;
+
+      @media only screen and (max-width: 780px) {
+        display: none;
+      }
+
+      .footer__up-arrow {
+        padding: 0.25rem;
+      }
+    }
+  }
+}

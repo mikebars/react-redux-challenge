@@ -1,0 +1,79 @@
+.nav-bar {
+  clear: both;
+  background-color: #eff1f0;
+  height: 4rem;
+
+  .nav-bar__container {
+    max-width: 780px;
+    margin: 0 auto;
+
+    .nav-bar__links {
+      display: inline;
+      float: left;
+      margin: 1.5rem 0;
+      padding: 0;
+
+      @media only screen and (max-width: 500px) {
+        display: none;
+      }
+
+      .nav-bar__link-container {
+        display: inline;
+        list-style: none;
+        padding: 0 0.25rem;
+
+        .nav-bar__link {
+          font-size: 0.75rem;
+          cursor: pointer;
+          padding: 0.25rem;
+          text-transform: uppercase;
+
+          &:hover {
+            color: #ff5548;
+          }
+        }
+      }
+    }
+
+    .nav-bar__select {
+      height: 3rem;
+      margin: 0.5rem;
+      padding-left: 1rem;
+
+      @media only screen and (min-width: 500px) {
+        display: none;
+      }
+    }
+
+    .nav-bar__search-container {
+      display: inline;
+      float: right;
+      height: 2rem;
+      margin: 1rem auto;
+      border: 1px solid #989a9c;
+
+      .nav-bar__search {
+        height: 100%;
+        border: none;
+        outline: none;
+        text-indent: 1rem;
+        background-color: #eff1f0;
+        color: #989a9c;
+      }
+
+      .nav-bar__submit {
+        height: 100%;
+        border: none;
+        outline: none;
+        padding-right: 1rem;
+        cursor: pointer;
+        text-indent: -999999999999rem;
+        background-color: #eff1f0;
+        background: center no-repeat url(http://img.gtvcdn.com/cdn/farfuture/_HbszqWrH_aInwb6qr4YyMXJpqudX6svB8ff3zwGelM/md5%3Ab07930771f6372513538c8384455fd3d/sites/all/themes/gaiatv/images/spyglass.png)
+      }
+
+    }
+
+  }
+
+}

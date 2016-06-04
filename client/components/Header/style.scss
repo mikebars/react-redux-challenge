@@ -1,0 +1,40 @@
+.header {
+  height: 4rem;
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 1rem;
+
+  .header__home-link {
+    display: block;
+    float: left;
+    font: 0/0 a;
+    cursor: pointer;
+    height: 2rem;
+    width: 4rem;
+    background-image: url(http://img.gtvcdn.com/cdn/farfuture/TDmavRRri2BIy36hHcSRBwl3F-ZGpbfo_g167az9YpM/md5%3A89d98bc0d2231cf92469286b22615da3/sites/all/themes/gaiatv/images/gaia-teal.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+  }
+
+  .header__user {
+    display: inline;
+    float: right;
+
+    .header__user-name {
+      text-transform: uppercase;
+      vertical-align: sub;
+      padding-right: 1rem;
+    }
+
+    .header__user-image {
+      background-image: url(http://img.gtvcdn.com/cdn/farfuture/kiWhrsGv2dZ5V-sqQz4g6FFJ-oOnNkZMV1-lWTIqtVs/mtime%3A1448041337/sites/default/files/user_photo_glenda_jasper.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      float: right;
+      height: 4rem;
+      width: 4rem;
+      margin-top: -1rem;
+    }
+  }
+}
